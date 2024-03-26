@@ -16,20 +16,21 @@
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 //*
 //  * @project_name : XLICON-V3-MD
-//  * @author : salmanytofficial
+//  * @author : maldytofficial
 //  * @youtube : https://www.youtube.com/@s4salmanyt
 //   * @description : XLICON-V3 ,A Multi-functional whatsapp user bot.
 //*
 //*
 //base by DGXeon
 //re-upload? recode? copy code? give credit ya :)
-//Instagram: unicorn_xeon13
-//Telegram: t.me/ahmmitech
-//GitHub: @salmanytofficial
-//WhatsApp: +923184070915
+//Instagram: makdives_mak
+//Telegram: t.me/254758732775
+//GitHub: @nafsat
+//WhatsApp: +254758732775
+
 //want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
-//   * Created By Github: DGXeon.
-//   * Credit To Xeon
+//   * Created By Github: Maldives.
+//   * Credit To Nafsat 
 //   * © 2024 XLICON-V3-MD.
 // ⛥┌┤
 // */
@@ -194,9 +195,9 @@ function formatAfkDuration(ms) {
   return parts.join(", ");
 }
 //time
-const xtime = moment.tz("Asia/Karachi").format("HH:mm:ss");
-const xdate = moment.tz("Asia/Karachi").format("DD/MM/YYYY");
-const time2 = moment().tz("Asia/Karachi").format("HH:mm:ss");
+const xtime = moment.tz("Africa/Nairobi").format("HH:mm:ss");
+const xdate = moment.tz("Africa/Nairobi").format("DD/MM/YYYY");
+const time2 = moment().tz("Africa/Nairobi").format("HH:mm:ss");
 if (time2 < "23:59:00") {
   var xeonytimewisher = `Good Night 🌌`;
 }
@@ -741,7 +742,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         if (!("badword" in chats)) chats.badword = false;
         if (!("antiforeignnum" in chats)) chats.antiforeignnum = false;
         if (!("antibot" in chats)) chats.antibot = false;
-        if (!("antiviewonce" in chats)) chats.antiviewonce = false;
+        if (!("antiviewonce" in chats)) chats.antiviewonce = true;
         if (!("antimedia" in chats)) chats.media = false;
         if (!("antivirtex" in chats)) chats.antivirtex = false;
         if (!("antiimage" in chats)) chats.antiimage = false;
@@ -759,7 +760,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
           badword: false,
           antiforeignnum: false,
           antibot: false,
-          antiviewonce: false,
+          antiviewonce: true,
           antivirtex: false,
           antimedia: false,
           antiimage: false,
@@ -779,19 +780,19 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       if (setting) {
         if (!("totalhit" in setting)) setting.totalhit = 0;
         if (!("totalError" in setting)) setting.totalError = 0;
-        if (!("online" in setting)) setting.online = false;
+        if (!("online" in setting)) setting.online = true;
         if (!("autosticker" in setting)) setting.autosticker = false;
-        if (!("autobio" in setting)) setting.autobio = false;
-        if (!("autoread" in setting)) setting.autoread = false;
-        if (!("autorecordtype" in setting)) setting.autorecordtype = false;
-        if (!("autorecord" in setting)) setting.autorecord = false;
+        if (!("autobio" in setting)) setting.autobio = true;
+        if (!("autoread" in setting)) setting.autoread = true;
+        if (!("autorecordtype" in setting)) setting.autorecordtype = true;
+        if (!("autorecord" in setting)) setting.autorecord = true;
         if (!("autotype" in setting)) setting.autotype = false;
         if (!("autoblocknum" in setting)) setting.autoblocknum = false;
         if (!("onlyindia" in setting)) setting.onlyindia = false;
         if (!("onlyindo" in setting)) setting.onlyindo = false;
         if (!("onlygrub" in setting)) setting.onlygrub = false;
         if (!("onlypc" in setting)) setting.onlypc = false;
-        if (!("watermark" in setting)) setting.watermark = { packname, author };
+        if (!("watermark" in setting)) setting.watermark = { maldives, mak };
         if (!("about" in setting))
           setting.about = {
             bot: { nick: XliconBotInc.getName(botNumber), alias: botname },
@@ -806,10 +807,10 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         global.db.data.settings[botNumber] = {
           totalhit: 0,
           totalError: 0,
-          online: false,
+          online: true,
           autosticker: false,
-          autobio: false,
-          autoread: false,
+          autobio: true,
+          autoread: true,
           autoblocknum: false,
           onlyindia: false,
           onlyindo: false,
@@ -907,12 +908,12 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     //bug loading
     async function loading() {
       var xeonlod = [
-        "```■■□□□□□□□ 10%```",
-        "```■■■■□□□□□ 30%```",
-        "```■■■■■■□□□ 50%```",
+        "```■■□□□□□□□ 20%```",
+        "```■■■■□□□□□ 40%```",
+        "```■■■■■■□□□ 60%```",
         "```■■■■■■■■□ 80%```",
         "```■■■■■■■■■ 100%```",
-        "```C o m p l e t e...!```🐦",
+        "```C o m p l e t e...!```💯",
       ];
       let { key } = await XliconBotInc.sendMessage(from, {
         text: "ʟᴏᴀᴅɪɴɢ...",
@@ -990,7 +991,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
           );
           result = {
             status: 200,
-            author: "SalmanSer",
+            author: "⁦⁠☬maldives☬⁠｡",
             url:
               "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" +
               data2.data.result.file_path,
@@ -1021,7 +1022,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     if (!m.isGroup && !XeonTheCreator && db.data.settings[botNumber].onlygrub) {
       if (isCommand) {
         return replygcXlicon(
-          `*_Hello buddy! Because We Want to Reduce Spam, Please Use Bot in the Group Chat !_*\n\n*_If you have issue please chat owner wa.me/${ownernumber}_*`
+          `*_Hello buddy! Because We Want to Reduce Spam, Please Use Bot in the Group Chat !_*\n\n*_If you have issue please chat owner wa.me/${254758732775}_*`
         );
       }
     }
@@ -1029,7 +1030,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     if (!XeonTheCreator && db.data.settings[botNumber].onlypc && m.isGroup) {
       if (isCommand) {
         return replygcXlicon(
-          "*_Hello buddy! if you want to use this bot, please chat the bot in private chat_*"
+          "*_Hello buddy! if you want to use this bot, please chat with 254104567966 in private chat_*"
         );
       }
     }
